@@ -1,0 +1,63 @@
+body {
+    --font: monospace;
+    background-color:rgb(30, 43, 43);
+    color: rgba(211, 211, 211, 0.966);
+    font-family: var(--font);
+
+}
+a {color:gold}
+h1 {font-family: var(--font)}
+p {font-family: var(--font)}
+hr {
+    display: block;
+    position: relative;
+    padding: 0;
+    margin: 8px auto;
+    height: 0;
+    width: 95%;
+    max-height: 0;
+    font-size: 8px;
+    line-height: 0;
+    clear: both;
+    border: none;
+    border-top: 8px solid #aaaaaa;
+}
+
+.page-body {padding:1rem}
+
+.subheader {
+    font-family: --font;
+    font-size: 1.15rem
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 200px 800px;
+    grid-template-areas: "header header"
+    "sidebar content";
+    padding-top: 1rem;
+    font-family: var(--font);
+}
+
+.top {
+    grid-area: header;
+    word-spacing: 4em;
+    padding-bottom: 0.5rem;
+}
+
+.side {grid-area: sidebar
+}
+
+.main {
+    grid-area: content;
+}
+
+.res-header {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-bottom: 0.25rem;
+}
+.res-job-header {
+    font-size: 1.15rem;
+}
+.res-body {font-size: 1rem}
