@@ -43,6 +43,7 @@ hr {
     grid-area: header;
     word-spacing: 4em;
     padding-bottom: 0.5rem;
+    position: fixed;
 }
 
 .side {grid-area: sidebar
