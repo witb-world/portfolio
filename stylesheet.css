@@ -5,7 +5,9 @@ body {
     font-family: var(--font);
 
 }
-a {color:gold}
+a {color:gold,}
+/* a:hover {color:aqua}; */
+
 h1 {font-family: var(--font)}
 p {font-family: var(--font)}
 hr {
@@ -48,11 +50,12 @@ hr {
 
 .side {
     grid-area: sidebar;
-    border: 2px dashed gold;
+    border: 1px dotted white;
 }
 
 .main {
     grid-area: content;
+    padding-left: 1rem;
 }
 
 .res-header {
@@ -61,6 +64,6 @@ hr {
     padding-bottom: 0.25rem;
 }
 .res-job-header {
-    font-size: 1.15rem;
+    font-size: 1rem;
 }
-.res-body {font-size: 1rem}
+.res-body {font-size: .85rem}
