@@ -46,7 +46,9 @@ hr {
     /* position: fixed; */
 }
 
-.side {grid-area: sidebar
+.side {
+    grid-area: sidebar;
+    border: 2px dashed gold;
 }
 
 .main {
