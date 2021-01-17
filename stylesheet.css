@@ -50,7 +50,7 @@ hr {
 
 .side {
     grid-area: sidebar;
-    border: 1px dotted white;
+    /* border: 1px dotted white; */
 }
 
 .main {
