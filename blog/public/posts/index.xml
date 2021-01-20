@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Anubis</title>
+    <link>/posts/</link>
+    <description>Anubis (Posts)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 17 Jan 2021 18:39:26 -0800</lastBuildDate>
+    
+    <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>My First Post</title>
+      <link>/posts/my-first-post/</link>
+      <pubDate>Sun, 17 Jan 2021 18:39:26 -0800</pubDate>
+      
+      <guid>/posts/my-first-post/</guid>
+      <description>&lt;h2 id=&#34;welcome-to-my-blog&#34;&gt;Welcome to my blog!&lt;/h2&gt;
+&lt;p&gt;This is a space where I will share some writeups of hacking projects I&amp;rsquo;ve done. I have been going through exercises on platforms including &lt;a href=&#34;https://hackthebox.eu&#34;&gt;Hack the Box&lt;/a&gt;, &lt;a href=&#34;https://vulnhub.com&#34;&gt;Vulnhub&lt;/a&gt;, &lt;a href=&#34;https://tryhackme.com&#34;&gt;TryHackMe&lt;/a&gt;, &lt;a href=&#34;https://overthewire.org&#34;&gt;OverTheWire&lt;/a&gt; and more.&lt;/p&gt;
+&lt;p&gt;This site is also an exercise in cloud hosting and cloud-native technologies. The blog is generated using &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt;, while the rest of the site is a smattering of my own HTML and CSS coding. It is currently hosted as a static site in an AWS S3 bucket. I am also currently studying for the Microsoft Azure AZ-900 certification.&lt;/p&gt;
+&lt;p&gt;More to come soon!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
